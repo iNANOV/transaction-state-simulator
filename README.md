@@ -9,6 +9,8 @@ The `state_at_date.foo` function is an R utility designed to simulate and track 
 - **Comprehensive Tracking:** Calculates open positions, cash flow, total investments, and cumulative performance in real time.
 - **Flexible for Simulations:** Supports iterative processing of transactions to simulate and analyze financial states over time.
 
+<img src="performance.png" alt="My Picture" width="300"/>
+
 ## Requirements
 
 - **R version:** 4.0 or higher
