@@ -4,9 +4,9 @@ library(tidyverse)
 # Parameters:
 # - acc [result at t-1]: A list representing the previous state, including:
 #        - open_positions: Data frame of current positions (id, Close, price).
-#        - investment: Total investment value.
-#        - cash: Remaining cash balance.
-#        - performance: Cumulative performance of all transactions.
+#        - investment: Total investment value in current positions.
+#        - cash: Remaining acumulated cash balance.
+#        - performance: Performance of all current positions (t - (t-1))/(t-1).
 # - curr [variable at t]: A character string representing the transaction in the format "Close_amount_price".
 # - initial_cash [constant]: Numeric value representing the initial cash amount available for transactions.
 # Returns [result at t]: 
